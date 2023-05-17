@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" verbose="1" >
+<listeners>
+        <listener class-name="atech.ny.listenerpage.TestListenr"/>
+</listeners>
+  <test name="Sanety" >
+    <classes>
+       <class name="atech.ny.myrunner.TestRunner" />
+    </classes>
+  </test>
+  </suite> 
